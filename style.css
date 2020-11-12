@@ -1,0 +1,185 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/*desktop*/
+
+body {
+  height: 1000px;
+  background-color: #F2F2F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div__popup {
+  width: 50%;
+  height: auto;
+  font-family: "Roboto";
+  background-color: white;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+}
+
+/*retangulo superior*/
+
+header {
+  background-color: white;
+  height: auto;
+  border-radius: 10px;
+}
+
+.header__retangulo {
+  margin: auto;
+  padding-top: 41px;
+  width: 90%;
+  height: auto;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #4ABEBD;
+  line-height: 28px;
+}
+
+.header__caption {
+  font-weight: bold;
+  font-size: 18px;
+  color: #B1D21D;
+  line-height: 21px;
+  margin-top: 24px;
+}
+
+.header__paragrafo {
+  color: #ADADAD;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 22px;
+  margin: 18px 0px;
+}
+
+
+/*retangulos inferiores*/
+
+.div__container {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.div__container-azul {
+width: 50%;
+padding: 42px 0px;
+}
+
+.conteudo {
+  width: 80%;
+  margin: auto;
+}
+
+.conteudo__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 24.84px;
+}
+
+.div__assinatura-mensal {
+  background-color: #2BB3B1;
+  color: white;
+  border-radius: 0px 0px 0px 10px;
+}
+
+.conteudo__valor {
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.conteudo__mensalidade {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.conteudo__preco {
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 45px;
+  margin-right: 18px;
+}
+
+.conteudo__paragrafo {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 35px;
+}
+
+.div__botao {
+ text-align: center;
+}
+
+.conteudo__botao {
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #BFDF32;
+  color: #516300;
+  padding: 5% 25%;
+  max-width: 300px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.conteudo__botao:hover {
+  background-color: #BFDF32;
+  color: white;
+  
+}
+
+.div__beneficios {
+  background-color: #4ABEBD;
+  color: white;
+  border-radius: 0px 0px 10px 0px;
+}
+
+.lista-beneficios {
+  font-weight: 300;
+  line-height: 26px;
+  font-size: 16px;
+  list-style: unset;
+  list-style: none;
+}
+
+@media screen and (max-width: 805px) {
+
+  .div__popup {
+    width: 90%;
+  }
+
+  .div__container {
+    display: unset;
+  }
+
+  .div__container-azul {
+    width: 100%;
+  }
+
+  .div__beneficios {
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .div__assinatura-mensal {
+    border-radius: 0px;
+  }
+
+  .conteudo__paragrafo {
+    margin-bottom: 50px;
+  }
+
+}
